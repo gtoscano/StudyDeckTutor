@@ -5,6 +5,9 @@ An **interactive LLM-powered study system** that helps students learn through **
 Professors or catechists can create **question decks** in simple YAML files, and students answer them interactively.  
 The app provides **instant feedback**, **adaptive hints**, and **performance tracking** — powered by either **Ollama (Qwen)** or **OpenAI models**.
 
+![Study Deck](images/study_deck_tutor.png)
+
+
 ---
 
 ## 🧠 Overview
