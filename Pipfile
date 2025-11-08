@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+openai = "*"
+streamlit = "*"
+pyyaml = "*"
+ollama = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"

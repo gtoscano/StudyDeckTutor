@@ -1,0 +1,111 @@
+meta:
+  title: "Intro to Python — Basics"
+  description: "Core Python concepts: syntax, data types, control flow, functions, and idioms."
+  subject: "Python"
+  level: "Undergraduate"
+  language: "en"
+  policy:
+    max_attempts: 3
+    reveal_answer_on_failout: false
+
+questions:
+  - id: py1
+    type: short_answer
+    prompt: "What keyword defines a function in Python?"
+    acceptable_answers: ["def"]
+    rubric: |
+      Accept only the keyword `def` (case sensitive in practice, but allow lowercase).
+    hint: "It appears at the start of a function header, followed by the function name and parameters."
+
+  - id: py2
+    type: short_answer
+    prompt: "What built-in function returns the length of a list?"
+    acceptable_answers: ["len", "len()"]
+    rubric: |
+      Accept `len` or `len()` as the function name.
+    hint: "It's three letters and works for many sequences, not just lists."
+
+  - id: py3
+    type: short_answer
+    prompt: "Which data type is immutable: list or tuple?"
+    acceptable_answers: ["tuple"]
+    rubric: |
+      Correct answer is `tuple`. Lists are mutable.
+    hint: "It's the one defined with parentheses."
+
+  - id: py4
+    type: short_answer
+    prompt: "How do you start a comment in Python?"
+    acceptable_answers: ["#", "hash", "pound sign"]
+    rubric: |
+      Accept `#` or a clear description like 'hash' or 'pound sign'.
+    hint: "It's a single character placed before inline notes."
+
+  - id: py5
+    type: short_answer
+    prompt: "What keyword is used to handle exceptions (the block that catches them)?"
+    acceptable_answers: ["except"]
+    rubric: |
+      The catching block keyword is `except`. (Do not accept try/finally/raise as the catcher.)
+    hint: "It pairs with 'try' and sometimes with 'finally'."
+
+  - id: py6
+    type: short_answer
+    prompt: "What is the Pythonic one-line way to create a list of squares from 0 to 4?"
+    acceptable_answers:
+      - "[x**2 for x in range(5)]"
+    rubric: |
+      Accept a correct list comprehension form that yields [0,1,4,9,16]. Minor spacing differences are fine.
+    hint: "Think list comprehension using range(5)."
+
+  - id: py7
+    type: short_answer
+    prompt: "Given d = {'a': 1, 'b': 2}, what expression returns 2 without raising if key missing?"
+    acceptable_answers:
+      - "d.get('b')"
+      - "d.get(\"b\")"
+    rubric: |
+      Accept d.get('b') (or with double quotes). Do not accept d['b'] because it can raise if missing.
+    hint: "Use the safe dictionary accessor."
+
+  - id: py8
+    type: short_answer
+    prompt: "What string literal prefix enables f-strings for interpolation?"
+    acceptable_answers: ["f", "f-string", "f''", "f\"\""]
+    rubric: |
+      Accept 'f' or any clear indication of f-strings (e.g., f'' / f"").
+    hint: "It's a single-letter prefix added before the opening quote."
+
+  - id: py9
+    type: short_answer
+    prompt: "Slice the first three elements of list L. What is the expression?"
+    acceptable_answers:
+      - "L[:3]"
+    rubric: |
+      Accept exactly L[:3] (allow minor spacing). Do not accept L[0:3] if you want to be strict; if lenient, allow both.
+    hint: "Use slicing with an omitted start index."
+
+  - id: py10
+    type: short_answer
+    prompt: "What keyword creates a lightweight, anonymous function?"
+    acceptable_answers: ["lambda"]
+    rubric: |
+      Accept `lambda`. Make sure the student names the keyword, not an example body.
+    hint: "It's often used for short callbacks or key functions."
+
+  - id: py11
+    type: short_answer
+    prompt: "What module do you import to work with regular expressions?"
+    acceptable_answers: ["re"]
+    rubric: |
+      Accept `re`. Do not accept 'regex' or others.
+    hint: "It’s a two-letter standard library module."
+
+  - id: py12
+    type: short_answer
+    prompt: "In a virtual environment, which command installs packages from requirements.txt?"
+    acceptable_answers:
+      - "pip install -r requirements.txt"
+    rubric: |
+      Accept 'pip install -r requirements.txt'. Ignore minor spacing differences.
+    hint: "It's a pip command with the -r flag."

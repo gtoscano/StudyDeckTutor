@@ -1,0 +1,188 @@
+---
+marp: true
+theme: default
+paginate: true
+size: 16:9
+class: lead
+style: |
+  section {
+    background-color: #fff;
+    color: #111;
+  }
+  h1, h2, h3 {
+    color: #c41e3a;
+  }
+  code {
+    background: #f5f5f5;
+    border-radius: 5px;
+    padding: 2px 6px;
+  }
+---
+
+# 🤖 LLMs in the Classroom: Threat or Opportunity?
+
+---
+
+## The Current Debate
+
+- Many instructors feel **Large Language Models (LLMs)** undermine student learning.  
+- Concerns include:
+  - 📋 Plagiarism and loss of originality  
+  - 💭 Overreliance on AI for answers  
+  - 🤔 Reduced critical thinking  
+- Some propose **banning** them entirely in academic environments.
+
+---
+
+## The Problem with Banning
+
+- Students already have access to these tools outside class.  
+- Banning LLMs:
+  - Limits **educational equity** — only those with tech literacy benefit.  
+  - Misses the chance to **teach responsible use**.  
+  - Prevents instructors from guiding how LLMs should be used.
+
+---
+
+## The Opportunity
+
+LLMs can become **personalized learning assistants** if designed thoughtfully.
+
+- 🧭 Provide guidance, not solutions  
+- 💬 Encourage reflection and reasoning  
+- ⚙️ Adapt to each student's learning pace  
+- 🧠 Support *active recall* and *formative assessment*
+
+---
+
+## The Shift in Mindset
+
+Instead of asking:
+
+> “How do we prevent students from using ChatGPT?”
+
+We should ask:
+
+> “How can we use LLMs to make students learn **better** and **deeper**?”
+
+---
+
+## Responsible Use Framework
+
+| Goal | LLM Role | Example |
+|------|-----------|----------|
+| 🧠 Reinforce knowledge | Socratic questioning | “Why do you think this is the answer?” |
+| 🧩 Active recall | Study deck quizzes | Q&A interaction with hints |
+| ✍️ Reflection | Summarization prompts | “Summarize what you learned today in 3 points.” |
+| 🔍 Research literacy | Critical comparison | “Compare two definitions and highlight differences.” |
+
+---
+
+## Introducing the **LLM Study Deck Tutor**
+
+A lightweight interactive study system powered by LLMs.  
+Students learn *by answering questions*, not by passively reading answers.
+
+---
+
+## How It Works
+
+1. 🧑‍🏫 Professor uploads a question deck (topics, correct answers, hints).  
+2. 💬 The LLM asks one question at a time.  
+3. ✅ If the answer is correct → move on.  
+4. ⚠️ If wrong → give advice, not the solution.  
+5. 🔁 After 3 failed attempts → mark wrong and continue.  
+6. 📊 Final screen shows performance summary.
+
+---
+
+## Why It’s Effective
+
+- Promotes **retrieval practice**, proven to strengthen memory.  
+- Encourages **metacognition** — students think about how they think.  
+- Gives **immediate, adaptive feedback**.  
+- Keeps **academic integrity** — the AI never provides full answers.  
+- Enables **teachers to author** the learning experience.
+
+---
+
+## Implementation Overview
+
+- Built in **Streamlit** for simplicity and usability.  
+- Uses either:
+  - 🧠 **Ollama + Qwen** (local, private)  
+  - ☁️ **ChatGPT API** (fast, scalable)  
+- Decks written in **YAML** — easy to share, version, and reuse.
+
+---
+
+## Example Deck (YAML)
+
+```yaml
+questions:
+  - prompt: "What MATLAB function creates a line plot?"
+    acceptable_answers: ["plot", "plot()"]
+    hint: "Think of the most basic function for 2D graphs."
+  - prompt: "What symbol begins a comment in MATLAB?"
+    acceptable_answers: ["%"]
+    hint: "It's a single character used before explanations."
+````
+
+---
+
+## The Learning Philosophy
+
+> The LLM becomes a **coach**, not a **crutch**.
+
+Students:
+
+* Engage in *productive struggle*
+* Get *just-in-time* hints
+* Build *confidence* through feedback
+* Learn the value of *explaining their reasoning*
+
+---
+
+## Ethical Considerations
+
+* 🔒 **Privacy-first** — local or anonymous sessions
+* ⚖️ **Fairness** — explicit rubrics reduce bias
+* 📚 **Transparency** — students know when AI is used
+* 🧑‍🏫 **Instructor control** — professors define what’s “correct”
+
+---
+
+## Beyond the Classroom
+
+* Can be used for:
+
+  * Entrance exam prep
+  * Self-paced remediation
+  * Peer tutoring sessions
+  * Continuous formative assessment
+
+---
+
+## Conclusion
+
+LLMs are not replacing professors.
+They are **amplifying** their ability to reach, support, and engage every student.
+
+> The question is not *“Should students use LLMs?”*
+> but *“How can we design them to make students learn responsibly?”*
+
+---
+
+## Next Steps
+
+* Pilot the **LLM Study Deck Tutor** with small groups
+* Gather feedback from students and instructors
+* Refine rubrics, hints, and grading criteria
+* Share open decks for reuse and collaboration
+
+---
+
+## 🙌 Final Thought
+
+“You cannot love what you do not know.”
+— St. Augustine of Hippo

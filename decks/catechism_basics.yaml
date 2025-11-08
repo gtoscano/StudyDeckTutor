@@ -1,0 +1,165 @@
+meta:
+  title: "Catechism — Core Beliefs and Teachings"
+  description: "A reflective study deck to help learners review essential Catholic teachings."
+  subject: "Catechism"
+  level: "Youth & Adult Faith Formation"
+  language: "en"
+  policy:
+    max_attempts: 3
+    reveal_answer_on_failout: false
+
+questions:
+  - id: c1
+    type: short_answer
+    prompt: "What are the two greatest commandments according to Jesus?"
+    acceptable_answers:
+      - "Love God and love your neighbor"
+      - "Love God above all things and your neighbor as yourself"
+    rubric: |
+      Accept answers expressing both love of God and love of neighbor as the two greatest commandments.
+    hint: "Both commandments involve love — one directed toward God, the other toward people."
+
+  - id: c2
+    type: short_answer
+    prompt: "What is a sacrament?"
+    acceptable_answers:
+      - "An outward sign of inward grace instituted by Christ"
+      - "A visible sign of God's invisible grace"
+    rubric: |
+      The answer should indicate that a sacrament is a visible or outward sign of God's grace instituted by Christ.
+    hint: "It’s a visible act or sign through which God gives grace."
+
+  - id: c3
+    type: short_answer
+    prompt: "How many sacraments are there in the Catholic Church?"
+    acceptable_answers:
+      - "7"
+      - "seven"
+    rubric: |
+      There are seven sacraments in total.
+    hint: "It’s a number less than ten, often grouped by initiation, healing, and service."
+
+  - id: c4
+    type: short_answer
+    prompt: "What prayer did Jesus teach his disciples?"
+    acceptable_answers:
+      - "The Our Father"
+      - "The Lord's Prayer"
+    rubric: |
+      Accept either “Our Father” or “Lord’s Prayer.”
+    hint: "It begins with 'Our Father who art in Heaven...'"
+
+  - id: c5
+    type: short_answer
+    prompt: "What is the meaning of the word 'Amen'?"
+    acceptable_answers:
+      - "So be it"
+      - "It is true"
+      - "Truly"
+    rubric: |
+      Accept expressions showing affirmation or agreement — “So be it,” “It is true,” or similar.
+    hint: "It’s a word we use to end prayers — meaning agreement or affirmation."
+
+  - id: c6
+    type: short_answer
+    prompt: "Name the three theological virtues."
+    acceptable_answers:
+      - "Faith, hope, and charity"
+      - "Faith, hope, and love"
+    rubric: |
+      Accept “Faith, Hope, and Charity” (or “Love” instead of Charity).
+    hint: "They correspond to our relationship with God and are infused by grace."
+
+  - id: c7
+    type: short_answer
+    prompt: "What is sin?"
+    acceptable_answers:
+      - "An offense against God"
+      - "A deliberate choice to turn away from God’s love"
+    rubric: |
+      The response should show understanding that sin is a willful offense or turning away from God.
+    hint: "It’s something that damages our relationship with God and others."
+
+  - id: c8
+    type: short_answer
+    prompt: "What is the central mystery of the Christian faith?"
+    acceptable_answers:
+      - "The Holy Trinity"
+      - "Trinity"
+    rubric: |
+      The correct answer is the Holy Trinity — one God in three divine persons: Father, Son, and Holy Spirit.
+    hint: "It’s one God in three persons."
+
+  - id: c9
+    type: short_answer
+    prompt: "Who is the successor of Saint Peter?"
+    acceptable_answers:
+      - "The Pope"
+      - "The Holy Father"
+    rubric: |
+      Accept “The Pope” or “The Holy Father.” The office of the papacy continues Peter’s mission.
+    hint: "He leads the universal Church from Rome."
+
+  - id: c10
+    type: short_answer
+    prompt: "What do Catholics celebrate at the Eucharist?"
+    acceptable_answers:
+      - "The Body and Blood of Christ"
+      - "The sacrifice of Jesus"
+      - "The Last Supper"
+      - "The real presence of Christ"
+    rubric: |
+      Accept references to the Body and Blood of Christ, the sacrifice of Jesus, or His real presence in the Eucharist.
+    hint: "It’s the memorial of Jesus’ sacrifice and a celebration of His presence among us."
+
+  - id: c11
+    type: short_answer
+    prompt: "What does the word 'Catholic' mean?"
+    acceptable_answers:
+      - "Universal"
+    rubric: |
+      Accept “universal.” The word refers to the universality of the Church.
+    hint: "It describes the Church’s universality — for all people and nations."
+
+  - id: c12
+    type: short_answer
+    prompt: "What is the Bible?"
+    acceptable_answers:
+      - "The Word of God"
+      - "The inspired Word of God"
+      - "Sacred Scripture"
+    rubric: |
+      The Bible is the inspired Word of God written under the guidance of the Holy Spirit.
+    hint: "It’s the collection of inspired books that reveal God’s plan for humanity."
+
+  - id: c13
+    type: short_answer
+    prompt: "Who is Mary in the Catholic faith?"
+    acceptable_answers:
+      - "The Mother of Jesus"
+      - "The Mother of God"
+      - "The Blessed Virgin Mary"
+    rubric: |
+      Accept references to Mary as the Mother of Jesus, the Mother of God, or the Blessed Virgin Mary.
+    hint: "She is the one who said 'yes' to God and bore His Son."
+
+  - id: c14
+    type: short_answer
+    prompt: "What do we celebrate at Easter?"
+    acceptable_answers:
+      - "The Resurrection of Jesus"
+      - "Jesus' Resurrection"
+    rubric: |
+      The correct answer is the Resurrection of Jesus from the dead.
+    hint: "It’s the most important feast of the liturgical year."
+
+  - id: c15
+    type: short_answer
+    prompt: "What is the goal of the Christian life?"
+    acceptable_answers:
+      - "To know, love, and serve God"
+      - "To be united with God in Heaven"
+      - "To reach eternal life"
+    rubric: |
+      Accept answers that refer to loving and serving God, and ultimately attaining eternal union with Him in Heaven.
+    hint: "It’s the purpose stated in the Catechism — union with God and eternal happiness."

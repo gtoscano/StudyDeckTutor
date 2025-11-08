@@ -1,0 +1,203 @@
+meta:
+  title: "World History — Major Civilizations and Turning Points"
+  description: "A guided review deck to help learners recall key moments, civilizations, and global transformations in world history."
+  subject: "World History"
+  level: "High School / Undergraduate Survey"
+  language: "en"
+  policy:
+    max_attempts: 3
+    reveal_answer_on_failout: false
+
+questions:
+  - id: wh1
+    type: short_answer
+    prompt: "Where did the first known civilizations emerge?"
+    acceptable_answers:
+      - "Mesopotamia"
+      - "The Fertile Crescent"
+    rubric: |
+      Accept “Mesopotamia” or “the Fertile Crescent.” Early civilizations formed between the Tigris and Euphrates rivers.
+    hint: "Think of the region between the Tigris and Euphrates rivers."
+
+  - id: wh2
+    type: short_answer
+    prompt: "What system of writing was developed by the ancient Sumerians?"
+    acceptable_answers:
+      - "Cuneiform"
+    rubric: |
+      The wedge-shaped writing system of the Sumerians was cuneiform.
+    hint: "It was pressed into clay tablets using a stylus."
+
+  - id: wh3
+    type: short_answer
+    prompt: "Which river was central to ancient Egyptian civilization?"
+    acceptable_answers:
+      - "The Nile"
+      - "Nile River"
+    rubric: |
+      The Nile provided fertile soil and transportation for ancient Egypt.
+    hint: "It flows north through Africa and was essential for Egypt’s agriculture."
+
+  - id: wh4
+    type: short_answer
+    prompt: "Who was the founder of Buddhism?"
+    acceptable_answers:
+      - "Siddhartha Gautama"
+      - "The Buddha"
+    rubric: |
+      Siddhartha Gautama, later known as the Buddha, founded Buddhism in India.
+    hint: "He was a prince who sought enlightenment after seeing human suffering."
+
+  - id: wh5
+    type: short_answer
+    prompt: "What form of government did ancient Athens develop that influenced modern systems?"
+    acceptable_answers:
+      - "Democracy"
+    rubric: |
+      Athens developed direct democracy, where citizens voted on decisions.
+    hint: "It means 'rule by the people.'"
+
+  - id: wh6
+    type: short_answer
+    prompt: "What empire built roads and aqueducts and spoke Latin?"
+    acceptable_answers:
+      - "The Roman Empire"
+      - "Rome"
+    rubric: |
+      The Roman Empire is known for its engineering, Latin language, and legal systems.
+    hint: "Its capital city gave its name to 'Romance languages.'"
+
+  - id: wh7
+    type: short_answer
+    prompt: "In what year did the Western Roman Empire fall?"
+    acceptable_answers:
+      - "476"
+      - "476 CE"
+    rubric: |
+      The fall of Rome traditionally dates to 476 CE, when the last emperor was deposed.
+    hint: "It happened in the 5th century CE."
+
+  - id: wh8
+    type: short_answer
+    prompt: "What was the dominant social and political system in medieval Europe?"
+    acceptable_answers:
+      - "Feudalism"
+    rubric: |
+      Feudalism structured society around relationships derived from the holding of land in exchange for service.
+    hint: "It involved lords, vassals, and serfs."
+
+  - id: wh9
+    type: short_answer
+    prompt: "What movement in the 14th–17th centuries revived interest in classical art and learning?"
+    acceptable_answers:
+      - "The Renaissance"
+      - "Renaissance"
+    rubric: |
+      The Renaissance began in Italy and spread through Europe, emphasizing humanism and classical learning.
+    hint: "Its name means 'rebirth.'"
+
+  - id: wh10
+    type: short_answer
+    prompt: "Who invented the printing press in Europe?"
+    acceptable_answers:
+      - "Johannes Gutenberg"
+      - "Gutenberg"
+    rubric: |
+      Johannes Gutenberg’s press (ca. 1450) revolutionized communication and literacy.
+    hint: "His invention made mass production of books possible."
+
+  - id: wh11
+    type: short_answer
+    prompt: "What 15th-century voyages connected Europe, Africa, and the Americas?"
+    acceptable_answers:
+      - "The Age of Exploration"
+      - "The Age of Discovery"
+    rubric: |
+      The Age of Exploration expanded global contact, trade, and colonization.
+    hint: "Think of explorers like Columbus, Magellan, and da Gama."
+
+  - id: wh12
+    type: short_answer
+    prompt: "What revolution began in Britain in the 18th century and transformed production?"
+    acceptable_answers:
+      - "The Industrial Revolution"
+    rubric: |
+      The Industrial Revolution marked the shift to mechanized production and urbanization.
+    hint: "It started with steam engines and textile factories."
+
+  - id: wh13
+    type: short_answer
+    prompt: "What event in 1789 began a major social and political upheaval in France?"
+    acceptable_answers:
+      - "The French Revolution"
+    rubric: |
+      The French Revolution overthrew monarchy and inspired democratic ideals worldwide.
+    hint: "It started with the storming of the Bastille."
+
+  - id: wh14
+    type: short_answer
+    prompt: "What global conflict was triggered by the assassination of Archduke Franz Ferdinand in 1914?"
+    acceptable_answers:
+      - "World War I"
+      - "The First World War"
+    rubric: |
+      World War I began in 1914 following the assassination in Sarajevo.
+    hint: "It introduced trench warfare and new technologies."
+
+  - id: wh15
+    type: short_answer
+    prompt: "What worldwide conflict ended in 1945 with the defeat of Nazi Germany and Imperial Japan?"
+    acceptable_answers:
+      - "World War II"
+      - "The Second World War"
+    rubric: |
+      World War II reshaped global politics and led to the formation of the United Nations.
+    hint: "It ended after the atomic bombings of Hiroshima and Nagasaki."
+
+  - id: wh16
+    type: short_answer
+    prompt: "What ideological struggle dominated global politics after 1945?"
+    acceptable_answers:
+      - "The Cold War"
+    rubric: |
+      The Cold War was a political and ideological rivalry between the United States and the Soviet Union.
+    hint: "It involved nuclear arms races and proxy wars."
+
+  - id: wh17
+    type: short_answer
+    prompt: "What movement led to the end of colonial rule in Africa and Asia in the 20th century?"
+    acceptable_answers:
+      - "Decolonization"
+    rubric: |
+      Decolonization refers to nations gaining independence from European powers.
+    hint: "It followed the world wars and the rise of nationalism."
+
+  - id: wh18
+    type: short_answer
+    prompt: "What 1989 event symbolized the end of the Cold War in Europe?"
+    acceptable_answers:
+      - "The fall of the Berlin Wall"
+      - "Berlin Wall"
+    rubric: |
+      The fall of the Berlin Wall marked the collapse of communist regimes in Eastern Europe.
+    hint: "It physically divided a German city for decades."
+
+  - id: wh19
+    type: short_answer
+    prompt: "Who was the civil rights leader known for his 'I Have a Dream' speech?"
+    acceptable_answers:
+      - "Martin Luther King Jr."
+      - "Dr. Martin Luther King Jr."
+    rubric: |
+      Martin Luther King Jr. was a central leader in the U.S. civil rights movement.
+    hint: "He advocated nonviolent resistance and racial equality."
+
+  - id: wh20
+    type: short_answer
+    prompt: "What is globalization?"
+    acceptable_answers:
+      - "The increasing interconnectedness of the world’s economies, cultures, and populations"
+      - "The growing interconnection of people and nations"
+    rubric: |
+      Accept definitions showing awareness of worldwide interdependence through trade, communication, and culture.
+    hint: "It describes how the world has become more linked economically and culturally."

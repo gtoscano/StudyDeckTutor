@@ -1,0 +1,38 @@
+meta:
+  title: "Intro MATLAB — Basics"
+  description: "Short practice deck for fundamentals"
+  subject: "MATLAB"
+  level: "Undergraduate"
+  language: "en"
+  policy:
+    max_attempts: 3
+    reveal_answer_on_failout: false  # keep answers hidden even after 3 tries
+
+questions:
+  - id: q1
+    type: short_answer
+    prompt: "What MATLAB function creates a line plot?"
+    acceptable_answers:
+      - "plot"
+      - "plot()"
+    rubric: |
+      Award correct if the student clearly names MATLAB's core line plotting function. Variations like `plot` or `plot()` are acceptable.
+    hint: "Think of the most basic function used to draw 2D line graphs."
+
+  - id: q2
+    type: short_answer
+    prompt: "In MATLAB, what symbol begins a comment?"
+    acceptable_answers: ["%", "percent sign"]
+    rubric: |
+      Correct if the answer indicates the percent sign `%`. Accept wording like "percent sign".
+    hint: "It’s a single character used before inline explanations."
+
+  - id: q3
+    type: short_answer
+    prompt: "Name a function to display variables in the Command Window."
+    acceptable_answers:
+      - "disp"
+      - "fprintf"
+    rubric: |
+      Accept `disp` or `fprintf`.
+    hint: "One is very simple and prints the value; the other supports formatted output."

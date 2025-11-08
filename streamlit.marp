@@ -1,0 +1,213 @@
+---
+marp: true
+theme: default
+paginate: true
+size: 16:9
+class: lead
+style: |
+  section {
+    background-color: #ffffff;
+    color: #111;
+    font-size: 1.2em;
+  }
+  h1, h2, h3 {
+    color: #c41e3a;
+  }
+  code {
+    background: #f5f5f5;
+    border-radius: 6px;
+    padding: 2px 6px;
+  }
+---
+
+# 🚀 Introduction to Streamlit
+
+---
+
+## 💡 What is Streamlit?
+
+- **Streamlit** is an open-source Python framework for building **interactive web apps** quickly and easily.  
+- Created for **data scientists, researchers, and educators** who want to turn scripts into shareable apps — *no HTML or JS required*.
+
+```bash
+pip install streamlit
+streamlit run app.py
+````
+
+---
+
+## 🧱 Why Streamlit?
+
+* 🧩 **Simple** — just pure Python.
+* ⚡ **Fast** — instant UI changes as code reruns automatically.
+* 🎨 **Beautiful** — includes built-in widgets, charts, and layouts.
+* ☁️ **Shareable** — deploy easily on Streamlit Cloud, Hugging Face Spaces, or your own server.
+
+---
+
+## 📊 Common Use Cases
+
+| Category           | Example Apps                                         |
+| ------------------ | ---------------------------------------------------- |
+| Data Visualization | Interactive plots with Matplotlib, Plotly, or Altair |
+| Machine Learning   | Model demos and parameter sliders                    |
+| Education          | Learning tools and simulations                       |
+| Text & NLP         | Chatbots, summarizers, language analyzers            |
+| Optimization       | Algorithm dashboards and decision support tools      |
+
+---
+
+## ⚙️ Your First Streamlit App
+
+Create a file named `app.py`:
+
+```python
+import streamlit as st
+
+st.title("Hello Streamlit! 👋")
+st.write("This is your first interactive web app in pure Python.")
+
+name = st.text_input("What's your name?")
+if name:
+    st.success(f"Welcome, {name}!")
+```
+
+Then run:
+
+```bash
+streamlit run app.py
+```
+
+✅ Your app opens automatically in the browser at `http://localhost:8501`
+
+---
+
+## 🧩 Adding Widgets
+
+Streamlit provides intuitive UI widgets:
+
+```python
+st.slider("Select a number", 0, 100, 50)
+st.checkbox("Enable feature")
+st.radio("Choose an option", ["A", "B", "C"])
+st.selectbox("Pick a fruit", ["Apple", "Banana", "Cherry"])
+st.button("Click me!")
+```
+
+Each widget returns its current **value**, making it easy to connect with your logic.
+
+---
+
+## 🖼️ Displaying Data
+
+```python
+import pandas as pd
+
+df = pd.DataFrame({
+    "x": range(1, 6),
+    "y": [x**2 for x in range(1, 6)]
+})
+
+st.table(df)
+st.line_chart(df, x="x", y="y")
+```
+
+🎯 Streamlit automatically detects Pandas, NumPy, and Matplotlib objects and displays them beautifully.
+
+---
+
+## ⚡ Reactive Model
+
+Streamlit automatically reruns your script from top to bottom whenever input changes.
+
+🧠 Think of your script as a **reactive function** — widgets are *stateful* and persistent between runs.
+
+---
+
+## 🗂️ Layout and Structure
+
+Use containers, columns, and expanders:
+
+```python
+col1, col2 = st.columns(2)
+with col1:
+    st.write("Left column")
+with col2:
+    st.write("Right column")
+
+with st.expander("See details"):
+    st.write("Extra information here")
+```
+
+---
+
+## 🌈 Advanced Features
+
+* File uploaders (`st.file_uploader`)
+* Caching for expensive computations (`@st.cache_data`)
+* Session state for multi-step workflows
+* Theming and customization with `.streamlit/config.toml`
+* Integration with LLMs, APIs, or databases
+
+---
+
+## 🧠 Example: Mini Quiz App
+
+```python
+import streamlit as st
+
+question = "Who developed Streamlit?"
+answer = "Streamlit Inc"
+
+st.write("### 🧩 Mini Quiz")
+user_answer = st.text_input(question)
+
+if user_answer:
+    if user_answer.lower().startswith("streamlit"):
+        st.success("Correct! 🎉")
+    else:
+        st.error("Not quite — try again.")
+```
+
+---
+
+## ☁️ Sharing Your App
+
+You can deploy easily on:
+
+* [streamlit.io/cloud](https://streamlit.io/cloud)
+* [Hugging Face Spaces](https://huggingface.co/spaces)
+* Your own server (e.g., Docker, Nginx, or Gunicorn)
+
+```bash
+streamlit run app.py --server.port 8080
+```
+
+---
+
+## 🧭 Summary
+
+| Concept       | Description                                                    |
+| ------------- | -------------------------------------------------------------- |
+| **Streamlit** | A Python framework for rapid web app development               |
+| **Goal**      | Make data and ML apps interactive, fast, and easy              |
+| **Key Idea**  | Write Python → Get a UI instantly                              |
+| **Use Case**  | Perfect for classroom tools, demos, dashboards, and study apps |
+
+---
+
+## 🪶 In One Line
+
+> “Streamlit turns your Python scripts into interactive, shareable web apps — instantly.”
+
+✨ Try building your first one today!
+
+---
+
+## 🙌 Thank You!
+
+**Next Steps:**
+
+* Visit [https://streamlit.io](https://streamlit.io)
+* Explore `st.chat_message` for conversational UIs
+* Combine Streamlit with LLMs like ChatGPT or Ollama for intelligent tutors

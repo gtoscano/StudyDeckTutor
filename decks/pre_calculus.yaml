@@ -1,0 +1,159 @@
+meta:
+  title: "Pre-Calculus — Fundamental Concepts"
+  description: "A practice deck covering core concepts in functions, trigonometry, exponents, logarithms, and limits."
+  subject: "Mathematics — Pre-Calculus"
+  level: "High School / Early College"
+  language: "en"
+  policy:
+    max_attempts: 3
+    reveal_answer_on_failout: false
+
+questions:
+  - id: pc1
+    type: short_answer
+    prompt: "What is the definition of a function?"
+    acceptable_answers:
+      - "A relation that assigns exactly one output for each input"
+      - "Each input has exactly one output"
+    rubric: |
+      Accept any clear description that indicates each input corresponds to exactly one output.
+    hint: "Think about how an input–output machine works."
+
+  - id: pc2
+    type: short_answer
+    prompt: "What is the domain of the function f(x) = 1/(x - 2)?"
+    acceptable_answers:
+      - "All real numbers except 2"
+      - "x ≠ 2"
+    rubric: |
+      The domain excludes x = 2, because the denominator cannot be zero.
+    hint: "Look for values that make the denominator zero."
+
+  - id: pc3
+    type: short_answer
+    prompt: "Simplify (x^3)^(2)."
+    acceptable_answers:
+      - "x^6"
+    rubric: |
+      Use the power of a power rule: multiply exponents (3×2=6).
+    hint: "When you raise a power to another power, multiply the exponents."
+
+  - id: pc4
+    type: short_answer
+    prompt: "What is the inverse function of f(x) = 2x + 3?"
+    acceptable_answers:
+      - "(x - 3)/2"
+      - "f⁻¹(x) = (x - 3)/2"
+    rubric: |
+      Solve for x in terms of y: y = 2x + 3 → x = (y - 3)/2 → f⁻¹(x) = (x - 3)/2.
+    hint: "Swap x and y, then solve for the new y."
+
+  - id: pc5
+    type: short_answer
+    prompt: "Evaluate log₂(8)."
+    acceptable_answers:
+      - "3"
+      - "three"
+    rubric: |
+      Since 2³ = 8, log₂(8) = 3.
+    hint: "Ask: 2 to what power gives 8?"
+
+  - id: pc6
+    type: short_answer
+    prompt: "Convert 60 degrees to radians."
+    acceptable_answers:
+      - "π/3"
+      - "pi/3"
+    rubric: |
+      Multiply degrees by π/180: 60×π/180 = π/3.
+    hint: "Multiply by π/180 to change from degrees to radians."
+
+  - id: pc7
+    type: short_answer
+    prompt: "What is sin(0°)?"
+    acceptable_answers:
+      - "0"
+      - "zero"
+    rubric: |
+      The sine of 0 degrees (or 0 radians) is 0.
+    hint: "At 0°, the opposite side has zero length."
+
+  - id: pc8
+    type: short_answer
+    prompt: "What is cos(90°)?"
+    acceptable_answers:
+      - "0"
+      - "zero"
+    rubric: |
+      The cosine of 90° (or π/2 radians) is 0.
+    hint: "At 90°, the adjacent side has length zero."
+
+  - id: pc9
+    type: short_answer
+    prompt: "Simplify sin²(x) + cos²(x)."
+    acceptable_answers:
+      - "1"
+      - "one"
+    rubric: |
+      Fundamental Pythagorean identity: sin²x + cos²x = 1.
+    hint: "Think Pythagorean theorem for the unit circle."
+
+  - id: pc10
+    type: short_answer
+    prompt: "What is the slope of the line 3x - 2y = 6?"
+    acceptable_answers:
+      - "3/2"
+      - "1.5"
+    rubric: |
+      Rewrite as y = (3/2)x - 3, so slope m = 3/2.
+    hint: "Put the equation in y = mx + b form."
+
+  - id: pc11
+    type: short_answer
+    prompt: "Find the midpoint between (2, 4) and (6, 10)."
+    acceptable_answers:
+      - "(4, 7)"
+      - "4,7"
+    rubric: |
+      Midpoint = ((2+6)/2, (4+10)/2) = (4, 7).
+    hint: "Average the x-values and y-values separately."
+
+  - id: pc12
+    type: short_answer
+    prompt: "What is the distance between (1, 2) and (4, 6)?"
+    acceptable_answers:
+      - "5"
+      - "√25"
+      - "square root of 25"
+    rubric: |
+      Distance formula: √((4-1)² + (6-2)²) = √(9 + 16) = 5.
+    hint: "Use the Pythagorean theorem between the two points."
+
+  - id: pc13
+    type: short_answer
+    prompt: "What is the vertex of y = (x - 3)² + 2?"
+    acceptable_answers:
+      - "(3, 2)"
+      - "3,2"
+    rubric: |
+      In vertex form y = a(x-h)² + k, vertex is (h, k) = (3, 2).
+    hint: "Identify h and k in the vertex form of a parabola."
+
+  - id: pc14
+    type: short_answer
+    prompt: "Evaluate the limit as x→2 of (x² - 4)/(x - 2)."
+    acceptable_answers:
+      - "4"
+      - "four"
+    rubric: |
+      Factor numerator: (x² - 4) = (x - 2)(x + 2); cancel and plug x=2 → 4.
+    hint: "Try factoring first, then substitute x = 2."
+
+  - id: pc15
+    type: short_answer
+    prompt: "What is the equation of a circle with center (2, -1) and radius 3?"
+    acceptable_answers:
+      - "(x - 2)² + (y + 1)² = 9"
+    rubric: |
+      Formula: (x - h)² + (y - k)² = r² → (x - 2)² + (y + 1)² = 9.
+    hint: "Square the radius and use (x - h)² + (y - k)² = r²."
